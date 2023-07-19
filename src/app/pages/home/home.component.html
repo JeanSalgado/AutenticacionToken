@@ -1,0 +1,34 @@
+<div class="m-5" style="text-align: center;">
+    <h1>Autenticacion Por Token <button class="btn btn-outline-danger" (click)="salir()">
+        Salir
+</button></h1>
+    <hr>
+    <div class="parrafo" class="form-control" style="text-align: center;">
+        <h1 style="text-align: center;">¿Cómo funciona la autenticación basada en tokens?</h1>
+            <p style="display: flex; text-align: justify; font-size: larger;" >
+                La autenticación basada en tokens comienza con el inicio de sesión de un usuario en un sistema, dispositivo o aplicación, normalmente utilizando una contraseña o una pregunta de seguridad. Un servidor de autorización valida esa autenticación inicial y luego emite un token de acceso, que es un pequeño dato que le permite a una aplicación de cliente realizar una llamada o señal segura a un servidor API.
+
+                La autenticación basada en tokens funciona al darle al servidor una segunda forma de alta seguridad para verificar la identidad del usuario y la autenticidad de la solicitud.
+                
+                Una vez completado este protocolo inicial de autenticación basado en tokens, el token funciona como un boleto certificado: El usuario puede seguir accediendo sin problemas a los recursos pertinentes, sin tener que volver a autenticarse, mientras dure el ciclo de vida del token. Este ciclo de vida finaliza cuando el usuario cierra la sesión o abandona una aplicación, y también puede ser activado por un protocolo de tiempo de espera establecido.
+            </p>
+        <h1 style="text-align: center;">¿Cuáles son los beneficios de la autenticación basada en tokens?</h1>
+            <p style="display: flex; text-align: justify; font-size: larger;">
+                La autentificación basada en tokens ofrece muchas ventajas a las partes interesadas:
+                <br>
+                <br>
+                Mejores experiencias de usuarios: En lugar de tener que reintroducir las credenciales y volver a autentificarse cada vez que se vuelve a un sistema, aplicación o página web, el usuario conserva el acceso sin obstrucciones mientras el token siga siendo válido (generalmente hasta que la sesión finalice al cerrar la sesión o al abandonarla).
+                <br>
+                <br>
+                Seguridad digital añadida: La autenticación basada en tokens añade una capa adicional de seguridad a la autenticación tradicional basada en contraseñas o en servidores. Los tokens son, por lo general, mucho más difíciles de robar, hackear o poner en peligro que una contraseña.
+                <br>
+                <br>
+                Control administrativo: La autentificación basada en tokens ofrece a los administradores un control mucho más granular y visibilidad sobre cada acción y transacción del usuario.
+                <br>
+                <br>
+                Una carga tecnológica más ligera: Dado que la generación de tokens puede desvincularse totalmente de la verificación de los mismos, esta puede ser gestionada por un servicio secundario como el que ofrece la solución Gestión de identidad y acceso (IAM) de Entrust. Esto reduce significativamente la carga de los servidores y dispositivos internos.
+            </p>
+            <img src="https://carlosazaustre.es/images/que-es-la-autenticacion-con-token/autenticacion-basada-en-token.png" alt="">
+     </div>
+     <br>
+</div>
